@@ -3,8 +3,9 @@ h2 {
 	color: #3300CC;
 }
 nav {
-	width: 900px;
+	width: 90%;
 	padding: 20px;
+
 }
 a {
 	text-align: center;
@@ -12,15 +13,26 @@ a {
 	margin: 20px;
 	padding: 20px;
 	background-color: #66CCFF;
-	width: 25%;
+	text-decoration: none;
 	font-size: 20px;
+
+
 }
+
+a:hover {
+	color: white;
+}
+
 
 h1 {
 	font-size: 70px;
 	color: #3300CC;
 	text-align: center;
 	font-family: Lobster;
+}
+
+.id {
+	text-transform: capitalize;
 }
 .greeting {
 	text-align: center;
@@ -33,6 +45,15 @@ button.email {
 	border-radius: 5px;
 	font-size: 16px;
 }
+
+.row {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+   
+
+}
+
 h3 {
 	color: #3300CC;
 	font-size: 40px;
@@ -45,7 +66,52 @@ button.details {
 	border-radius: 5px;
 	font-size: 16px;
 }
-.col {
-	width: 33.33%;
-	display: inline-block;
-} 
+
+@media (max-width: 500px) {
+    nav {
+		padding: 5px;
+		}
+	a {
+	text-align: center;
+	border: 2px solid #D0D0D0;
+	margin: 5px;
+	padding: 5px;
+	background-color: #66CCFF;
+
+	font-size: 15px;
+	}
+
+    h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+
+    .greeting {
+	text-align: center;
+	font-size: 20px;
+}
+button.email {
+	background-color: #00FFCC;
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 12px;
+
+    }
+button.details {
+	background-color: #00FFCC;
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 12px;
+	}
+
+h3 {
+	font-size: 24px;
+
+}
+
+ .info{
+	font-size: 10px;
+	}
+}
