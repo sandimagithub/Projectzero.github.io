@@ -1,0 +1,51 @@
+h2 {
+	font-family: Lobster;
+	color: #3300CC;
+}
+nav {
+	width: 900px;
+	padding: 20px;
+}
+a {
+	text-align: center;
+	border: 2px solid #D0D0D0;
+	margin: 20px;
+	padding: 20px;
+	background-color: #66CCFF;
+	width: 25%;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 70px;
+	color: #3300CC;
+	text-align: center;
+	font-family: Lobster;
+}
+.greeting {
+	text-align: center;
+	font-size: 30px;
+}
+button.email {
+	background-color: #00FFCC;
+	color: black;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+h3 {
+	color: #3300CC;
+	font-size: 40px;
+	font-family: Lobster;
+}
+button.details {
+	background-color: #00FFCC;
+	color: black;
+	padding: 15px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.col {
+	width: 33.33%;
+	display: inline-block;
+} 
